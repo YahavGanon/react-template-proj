@@ -39,20 +39,28 @@ function remove(bookId) {
 }
 
 function save(book) {
-    return storageService.post(BOOK_KEY, book)
+    if (book.id) {
+        return storageService.put(BOOK_KEY, book)
+    } else {
+        book = _createBook(book.title, book.price)
+        return storageService.post(BOOK_KEY, book)
+    }
 }
 
 function getDefaultFilter() {
     return { title: '', price: 0 }
 }
 
-function getEmptyBook(title = '', movies = ['Rambo', 'Rocky'], img = './assets/img/green.png') {
-    return { id: '', title, movies, img }
+function getEmptyBook(title = '', price = '') {
+    return { title, price, }
 }
 
-function _createBook(title, movies, img) {
-    const book = getEmptybook(title, movies, img)
+function _createBook(title, price) {
+    const book = getEmptyBook(title, price)
     book.id = utilService.makeId()
+    book.thumbnail = 'https://www.philippagregory.com/storage//book-covers/mmb63UuhKnv9BK4oid3PASu9GUuTLnjGiwErCILy.jpg'
+    book.authors = ['yahav ganon', 'someone else']
+    book.description = utilService.makeLorem(10)
     return book
 }
 

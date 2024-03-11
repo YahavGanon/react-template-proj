@@ -5,7 +5,7 @@ const { useState } = React
 
 export function BookFilter({ onSetFilter, filterBy }) {
     const [filterByToEdit, setFilterByToEdit] = useState(bookService.getDefaultFilter())
-    console.log(filterByToEdit)
+
     function onFilter(ev) {
         ev.preventDefault()
         onSetFilter(filterByToEdit)

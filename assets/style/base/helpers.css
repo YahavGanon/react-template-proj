@@ -81,3 +81,9 @@
     width: 15%;
 }
 
+.app-nav .active{
+    color: whitesmoke;
+    transition: 0.3s;
+    scale: 1.2;
+}
+

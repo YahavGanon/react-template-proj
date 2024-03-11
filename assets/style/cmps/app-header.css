@@ -1,10 +1,13 @@
 .app-header {
   background-color: var(--clr1);
   color: var(--clr1bg);
-  padding: 1em;
-  display: flex;
-  justify-content: space-between;
   font-size: 1.3em;
+  padding: 0.5em;
+  justify-content: space-between;
+}
+
+.app-nav{
+  line-height: 4;
 }
 
 .app-nav-option:hover {

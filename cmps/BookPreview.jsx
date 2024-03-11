@@ -1,4 +1,4 @@
-export function BookPreview({book,idx}){
+export function BookPreview({book}){
     // console.log(img);
     return <article className="book-preview">
         <img src={book.thumbnail} alt="" />

@@ -12,7 +12,7 @@ export function BookDetails({ book, idx, onGoBack }) {
         <h1 className="title">{book.title}</h1>
         <hr className="hr" />
         <h4>By: ${book.authors}  <span className="title">Price:</span> <span className={getBookPrice()}>{book.listPrice.amount}</span></h4>
-        <img src={`../assets/img/${idx + 1}.jpg`} alt="" />
+        <img className="img-size" src={book.thumbnail} alt="" />
         <p className="about-p"><span className="title">about: </span> {book.description}</p>
         <button onClick={onGoBack}>Return</button>
 

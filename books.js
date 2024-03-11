@@ -14,7 +14,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "https://flavup.net/modules/smartblog/images/8-large_default.jpg",
+    "thumbnail": "https://booksondemand.ma/cdn/shop/products/RichDad_PoorDadbyRobertT.Kiyosaki-books.jpg?v=1609441318",
     "language": "en",
     "listPrice": {
       "amount": 109,
@@ -36,7 +36,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/14.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/81aY1lxk+9L._AC_UF1000,1000_QL80_.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 44,
@@ -58,7 +58,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/2.jpg",
+    "thumbnail": "https://cdn2.penguin.com.au/covers/original/9781785151552.jpg",
     "language": "he",
     "listPrice": {
       "amount": 108,
@@ -80,7 +80,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/16.jpg",
+    "thumbnail": "https://miro.medium.com/v2/resize:fit:960/1*0RPVUnIBvRGl4W21AxmcYA.jpeg",
     "language": "en",
     "listPrice": {
       "amount": 30,
@@ -102,7 +102,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/12.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/61NAx5pd6XL._AC_UF1000,1000_QL80_.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 19,
@@ -124,7 +124,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/1.jpg",
+    "thumbnail": "https://mir-s3-cdn-cf.behance.net/project_modules/hd/c9448933546269.57a20fb97b03d.jpg",
     "language": "en",
     "listPrice": {
       "amount": 91,
@@ -146,7 +146,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/14.jpg",
+    "thumbnail": "https://target.scene7.com/is/image/Target/GUEST_2b5fb53f-3420-484f-9c36-0abfe0c9c38e?wid=488&hei=488&fmt=pjpeg",
     "language": "he",
     "listPrice": {
       "amount": 90,
@@ -168,7 +168,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/11.jpg",
+    "thumbnail": "https://embed.cdn.pais.scholastic.com/v1/channels/clubs-us/products/identifiers/isbn/9781338596700/primary/renditions/900",
     "language": "he",
     "listPrice": {
       "amount": 176,
@@ -190,7 +190,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/10.jpg",
+    "thumbnail": "https://images.thenile.io/r1000/9780545790352.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 116,
@@ -212,7 +212,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/5.jpg",
+    "thumbnail": "https://www.jkrowling.com/wp-content/uploads/2016/10/HPATPS_Hero_OnGrey.png",
     "language": "en",
     "listPrice": {
       "amount": 145,
@@ -234,7 +234,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/16.jpg",
+    "thumbnail": "https://i1.wp.com/www.denverpost.com/wp-content/uploads/2016/07/cursed-child.jpg?w=620&crop=0%2C0px%2C100%2C9999px",
     "language": "sp",
     "listPrice": {
       "amount": 157,
@@ -256,7 +256,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/17.jpg",
+    "thumbnail": "https://www.jkrowling.com/wp-content/uploads/2016/10/HPATPOA_Hero_OnGrey.png",
     "language": "sp",
     "listPrice": {
       "amount": 57,
@@ -278,7 +278,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/8.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg",
     "language": "en",
     "listPrice": {
       "amount": 167,
@@ -300,7 +300,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/3.jpg",
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1633472105i/59223802.jpg",
     "language": "he",
     "listPrice": {
       "amount": 150,
@@ -322,7 +322,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/6.jpg",
+    "thumbnail": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1534231424i/2865139.jpg",
     "language": "en",
     "listPrice": {
       "amount": 58,
@@ -344,7 +344,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/7.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/81YQhK1UiSL._AC_UF1000,1000_QL80_.jpg",
     "language": "en",
     "listPrice": {
       "amount": 78,
@@ -366,7 +366,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/10.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/61WgKoe1tDL._AC_UF1000,1000_QL80_.jpg",
     "language": "en",
     "listPrice": {
       "amount": 118,
@@ -388,7 +388,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/12.jpg",
+    "thumbnail": "https://assets.vogue.com/photos/59dfd31a7e799438d68c461e/master/w_2560%2Cc_limit/00-story-image-the-power.jpg",
     "language": "he",
     "listPrice": {
       "amount": 60,
@@ -410,7 +410,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/20.jpg",
+    "thumbnail": "https://m.media-amazon.com/images/I/71dTY3dvAuL._AC_UF1000,1000_QL80_.jpg",
     "language": "he",
     "listPrice": {
       "amount": 110,
@@ -432,7 +432,7 @@ export const demoBooks = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/2.jpg",
+    "thumbnail": "https://image.pbs.org/contentchannels/5UiQigZ-show-poster2x3-3GLpJuq.jpg",
     "language": "sp",
     "listPrice": {
       "amount": 186,

@@ -55,3 +55,21 @@
 .fa.fa-behance::before {
     content: "\f1b4";
 }
+
+.hr{
+    width:60%;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.expensive{
+    color: red;
+}
+
+.chip{
+    color: green;
+}
+

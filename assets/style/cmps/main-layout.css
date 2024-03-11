@@ -1,0 +1,22 @@
+.book-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: space-around;
+}
+
+.book-preview{
+    border: solid 1px black;
+}
+
+.our-books{
+    font-size: 2em;
+    margin: 0;
+}
+
+.about-p{
+    font-size: 1em;
+    margin: auto;
+}
+
+

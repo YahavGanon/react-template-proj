@@ -1,6 +1,5 @@
 
-
-const books = [
+export const demoBooks = [
   {
     "id": "OXeMG8wNskc",
     "title": "metus hendrerit",
@@ -15,7 +14,7 @@ const books = [
       "Computers",
       "Hack"
     ],
-    "thumbnail": "http://coding-academy.org/books-photos/20.jpg",
+    "thumbnail": "https://flavup.net/modules/smartblog/images/8-large_default.jpg",
     "language": "en",
     "listPrice": {
       "amount": 109,

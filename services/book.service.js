@@ -1,6 +1,7 @@
 import { utilService } from './util.service.js'
 import { storageService } from './async-storage.service.js'
 import { demoBooks } from '../books.js'
+console.log(demoBooks)
 
 const BOOK_KEY = 'book_DB'
 _createBooks()
@@ -13,6 +14,8 @@ export const bookService = {
     getEmptyBook,
     _createBook,
     getDefaultFilter,
+    addReview,
+    addGoogleBook,
 }
 
 function query(filterBy = getDefaultFilter()) {
@@ -72,3 +75,35 @@ function _createBooks() {
         utilService.saveToStorage(BOOK_KEY, books)
     }
 }
+
+function addReview(book, review) {
+    book.review = book.review || []
+    book.review.push(review)
+    return storageService.put(BOOK_KEY, book)
+}
+
+function addGoogleBook(googleBook) {
+    const thumbnail = googleBook.volumeInfo.imageLinks && googleBook.volumeInfo.imageLinks.thumbnail
+    const newBook = {
+        id: googleBook.id,
+        title: googleBook.volumeInfo.title,
+        subtitle: googleBook.volumeInfo.subtitle,
+        isOnSale: googleBook.saleInfo.isEbook,
+        publishedDate: 2019,
+        pageCount: googleBook.volumeInfo.pageCount,
+        currencyCode: googleBook.volumeInfo.language,
+        thumbnail: thumbnail || "https://booksondemand.ma/cdn/shop/products/RichDad_PoorDadbyRobertT.Kiyosaki-books.jpg?v=1609441318",
+        authors: googleBook.volumeInfo.authors,
+        listPrice: {
+            amount: 109,
+        },
+        description: googleBook.volumeInfo.description,
+    }
+    console.log(newBook)
+    return storageService.post(BOOK_KEY, newBook)
+}
+
+
+
+
+

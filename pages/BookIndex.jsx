@@ -5,6 +5,7 @@ import { bookService } from "../services/book.service.js"
 import { BookList } from "../cmps/BookList.jsx"
 import { BookPreview } from "../cmps/BookPreview.jsx"
 import { BookFilter } from "../cmps/BookFilter.jsx"
+import { AddBook } from "../cmps/AddBook.jsx"
 
 import { BookDetails } from "./BookDetails.jsx"
 
@@ -15,6 +16,10 @@ export function BookIndex() {
     useEffect(() => {
         loadBooks()
     }, [filterBy])
+
+    useEffect(() => {
+        loadBooks()
+    }, [])
 
     function onSetFilter(fieldsToUpdate) {
         console.log(fieldsToUpdate)
@@ -33,6 +38,7 @@ export function BookIndex() {
     if (!books) return <div>Loading...</div>
     return <section className="book-index">
         <BookFilter onSetFilter={onSetFilter} filterBy={filterBy} />
+        <AddBook loadBooks={loadBooks} />
         <Link to="/book/edit"><button>Add Book</button></Link>
         <h1 className="our-books">Our Books</h1>
         <BookList

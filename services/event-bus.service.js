@@ -4,6 +4,7 @@ export const eventBusService = createEventEmitter()
 // Debug purposes
 window.showSuccessMsg = showSuccessMsg
 window.showErrorMsg = showErrorMsg
+window.ebs = eventBusService
 
 export function showUserMsg(msg) {
     eventBusService.emit('show-user-msg', msg)

@@ -56,34 +56,53 @@
     content: "\f1b4";
 }
 
-.hr{
-    width:60%;
+.hr {
+    width: 60%;
 }
 
-.title{
+.title {
     font-size: 2em;
     font-weight: bold;
 }
 
-.expensive{
+.expensive {
     color: red;
 }
 
-.chip{
+.chip {
     color: green;
 }
 
-.li-list{
+.li-list {
     width: 15%;
 }
 
-.img-size{
+.img-size {
     width: 15%;
 }
 
-.app-nav .active{
+.app-nav .active {
     color: whitesmoke;
     transition: 0.3s;
     scale: 1.2;
 }
 
+.user-msg.error {
+    background-color: red;
+}
+
+.user-msg.success {
+    background-color: green;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    flex-wrap: wrap;
+    margin-bottom: 0.5em;
+}
+
+.gap {
+    gap: 1em;
+}
